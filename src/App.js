@@ -7,6 +7,7 @@ import Banner from './components/Banner';
 import AppStoreBanner from './components/AppStoreBanner';
 import TopBooks from './components/TopBooks';
 import Testimonial from './components/Testimonial';
+import GotoTop from './components/GotoTop';
 import Footer from './components/Footer';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -41,6 +42,7 @@ function App() {
       <Testimonial />
       <Footer />
       <Popup handleOrderPopup={handleOrderPopup} orderPopup={orderPopup} />
+      <GotoTop />
     </div>
   );
 }
